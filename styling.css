@@ -1,0 +1,447 @@
+body {
+  color: #fff6f6;
+  margin: 0 0 100px 0;
+  background-color: #000044;
+  font-size: large;
+}
+h1{
+  color: white;
+}
+ 
+.aligncenter {
+  text-align: center;
+}
+
+a {
+  color: #fff6f6;
+}
+p2 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 50px;
+  color: #CFF6FF;
+}
+
+a:hover {
+  color: #ffc2c2;
+}
+
+a:active {
+  color: #ffa8a8;
+}
+
+a:visited {
+  color: #f8d2c1;
+}
+
+hr {
+  background-color: #110022;
+  color: #110022;
+  border-top: lightblue 1px solid;
+  border-bottom:  lightblue 1px solid;
+  border-left: none;
+  border-right: none;
+  height: 15px;
+}
+
+img {
+  overflow: hidden;
+  align-content: center;
+}
+
+/* header related CSS */
+header {
+  padding-bottom: 10px;
+  background-color: #110022;
+  border-bottom: lightblue 1px solid;
+  border-radius: 10px;
+}
+
+.header_flex_top {
+  display: flex;
+  text-align: center;
+}
+
+.header_img_and_spacing {
+  width: 15%;
+  margin: auto 15px;
+}
+
+.header_img_and_spacing img {
+  width: 100px;
+  height: auto;
+}
+
+.header_text {
+  text-align: center;
+  width: 70%;
+  
+}
+
+.title {
+  margin: 10px 20px;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+}
+
+#navigation_bar {
+  text-align: center;
+
+  border: lightblue 1px solid;
+  margin: 0 4px;
+  border-radius: 15px;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+button {
+  background-color: #6a536d; /* Green */
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+div, iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+/* main related CSS */
+#homepage_image {
+  margin: 50px 0 0 0;
+  height: 350px;
+  border-top: solid 1px lightblue;
+  border-bottom: solid 1px lightblue;
+  border-radius: 15px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ th {
+  border: 1px solid #ebe2e2;
+  text-align: left;
+  padding: 8px;
+  color: #284746;
+  background-color: #bdbdbd;
+  
+}
+td{
+  border: 1px solid #ebe2e2;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #7c0889;
+}
+tr:nth-child(odd) {
+  background-color: #6a536d;
+}
+
+
+#story {
+  width: 750px;
+  margin: 75px auto;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  height: 450px;
+}
+
+.main_div {
+  width: 1250px;
+  margin: auto;
+  height: 600px;
+}
+
+.main_flex_top {
+  display: flex;
+  height: 50%;
+  
+}
+
+.main_flex_bottom {
+  display: flex;
+  height: 50%;
+  
+}
+
+.main_content {
+  width: 33%;
+  margin: auto 5px;
+  text-align: center;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  height: 95%;
+}
+
+.main_content h3 {
+  line-height: 230px;
+}
+
+.agenda_flex {
+  display: flex;
+  width: 650px;
+  padding: 0;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.agenda_flex ul {
+  list-style-type: none;
+}
+
+.agenda_column {
+  width: 33%;
+  margin: 0 20px;
+}
+
+.sub_header {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.industry_data {
+  margin: 75px;
+  padding: 20px;;
+}
+
+.industry_flex {
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  height: 1000px;
+}
+
+.industry_box {
+  width: 50%;
+  height: 100%;
+  margin: 25px;
+}
+
+.industry_item {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  height: 40%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.industry_item h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.industry_job_main {
+  border-top: lightblue 1px solid;
+  border-bottom: lightblue 1px solid;
+  border-radius: 15px;
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.industry_job_main h4 {
+  margin-left: 50px;
+}
+h5 {
+  font-weight: bold;
+  color: rgb(180, 238, 178);
+  font-size: 25px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+.industry_job_flex {
+  display: flex;
+  margin: auto;
+}
+
+.industry_job_img{
+  width: 100%;
+  margin: auto;
+}
+
+.industry_job_img img{
+  width: 95%;
+}
+
+.proj_overview {
+  padding-left: 5%;
+  padding-right: 5%;
+  border: lightblue 1px solid;
+  border-radius: 15px; 
+}
+
+.technologies {
+  margin: 50px 250px;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+}
+
+.technologies_content {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.intro_list {
+  margin-left: 10px;
+  padding: 5px;
+  list-style-type: none;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  width: 400px;
+}
+
+.profile_main {
+  margin: 50px auto;
+  width: 1000px;
+}
+
+.profile_middle_flex {
+  display: flex;
+  border-top: lightblue 1px solid;
+  border-bottom: lightblue 1px solid;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.profile_personal_main {
+  width: 25%;
+}
+
+.profile_personal_right {
+  border-left: white 1px solid;
+  width: 75%;
+  margin: 5px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.profile_personal_content {
+  height: 45%;
+  padding: 1px 5px;
+  overflow: hidden;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.profile_bottom_flex {
+  display: flex;
+  height: 230px;
+}
+
+.profile_bottom_content {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+  align-content: center;
+}
+
+.profile_bottom_content img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.table_job {
+  margin-left: 30px;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  padding-left: 30px;
+}
+
+.organizational_chart {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 70%;
+  overflow: hidden;
+  height: 250px;
+}
+
+.sim_diff_img {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 600px;
+  height: auto;
+  overflow: hidden;
+}
+
+.mini_header {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  width: 40%;
+  padding-left: 15px;
+  margin-top: 50px;
+}
+
+.img_idealjobs {
+  margin-top: 30px;
+}
+
+.img_idealjobs img {
+  width: 50%;
+  
+}
+
+/* footer related CSS */
+
+footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #110022;
+  color: white;
+  text-align: center;
+  border-top: lightblue 1px solid;
+  border-radius: 10px;
+  border-bottom: lightblue 1px solid;
+}
+
+.footer_div {
+  margin: auto;
+  width: 75%;
+  height: 100%
+}
+
+.footer_top {
+  height: 40%;
+}
+
+.footer_socials_flex {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.footer_socials {
+  width: 25%;
+}
+
+.footer_socials img {
+  width: 20%;
+  height: auto;
+}
